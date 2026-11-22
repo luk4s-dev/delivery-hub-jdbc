@@ -16,7 +16,7 @@ public class Entregador {
         this.status = status;
     }
 
-    public int getIdEntregador() { return idEntregador }
+    public int getIdEntregador() { return idEntregador; }
     public void setIdEntregador(int idEntregador) { this.idEntregador = idEntregador; }
 
     public String getNome() {
