@@ -1,5 +1,10 @@
 package br.ucsal.deliveryhub;
 
-public class Main {
+import br.ucsal.deliveryhub.view.MenuView;
 
+public class Main {
+    public static void main(String[] args) {
+        MenuView menu = new MenuView();
+        menu.exibirMenu();
+    }
 }
